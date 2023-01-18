@@ -1,9 +1,0 @@
-2023-01-18 10:55:41,346 [Worker-9: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
-2023-01-18 10:56:20,672 [Worker-13: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Loja:Loja:0.0.1-SNAPSHOT @ C:\Users\leona\OneDrive\Documentos\estudos em java\Alura\JavaLearning\Design Pattern\Loja\pom.xml.
-2023-01-18 10:56:21,397 [Worker-13: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Loja/src
-2023-01-18 10:56:21,398 [Worker-13: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /Loja/src/test/java because it overlaps with /Loja/src
-2023-01-18 10:56:21,448 [Worker-13: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 1 sec
-2023-01-18 10:56:22,335 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-2023-01-18 10:56:22,336 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\leona\OneDrive\Documentos\estudos em java\Alura\JavaLearning\Design Pattern\Loja\src\main\resources
-2023-01-18 10:56:22,341 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-2023-01-18 10:56:22,342 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\leona\OneDrive\Documentos\estudos em java\Alura\JavaLearning\Design Pattern\Loja\src\test\resources
