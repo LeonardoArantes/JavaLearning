@@ -10,12 +10,14 @@ public class BudgetDiscountHighItemsNumber extends Discount{
 		super(next);
 	}
 
-	public BigDecimal calculate(Budget budget) {
-		if(budget.getItemQuantity() > 5)
-			return budget.getValue().multiply(new BigDecimal("0.1"));
-			
-		return next.calculate(budget);
-	
+	public BigDecimal doCalculate(Budget budget) {
+		System.out.println("APLICA DESCONTO POR MAIOR QUANTIDADE");
+		return budget.getValue().multiply(new BigDecimal("0.1"));
+	}
+
+	@Override
+	public boolean isApplicable(Budget budget) {
+		return budget.getItemQuantity() > 5;
 	}
 
 }

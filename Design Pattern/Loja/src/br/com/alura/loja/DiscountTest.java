@@ -8,7 +8,7 @@ import br.com.alura.loja.discount.DiscountCalculator;
 public class DiscountTest {
 	public static void main(String[] args) {
 		Budget budget = new Budget(new BigDecimal("200"), 6);
-		Budget budget1 = new Budget(new BigDecimal("200"), 4);
+		Budget budget1 = new Budget(new BigDecimal("200"), 3);
 		Budget budget2 = new Budget(new BigDecimal("500"), 4);
 		
 		DiscountCalculator calculator = new DiscountCalculator();
