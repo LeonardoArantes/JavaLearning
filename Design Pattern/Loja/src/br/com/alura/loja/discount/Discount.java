@@ -22,5 +22,5 @@ public abstract class Discount {
 	}
 	
 	protected abstract BigDecimal doCalculate(Budget budget);
-	protected abstract boolean isApplicable(Budget budget);//deveaplicar?
+	protected abstract boolean isApplicable(Budget budget);
 }

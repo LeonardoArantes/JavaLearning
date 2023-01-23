@@ -1,3 +1,4 @@
 Design Pattern/.metadata
-
-echo "Design Pattern/.metadata" >> .gitignore
+*.class
+echo "/Design Pattern/.metadata" >> .gitignore
+echo "*.class" >> .gitignore
