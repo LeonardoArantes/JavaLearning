@@ -1,7 +1,0 @@
-package br.com.alura.loja.budjet;
-
-public class Budget {
-	
-	private BigDecimal value;
-
-}
