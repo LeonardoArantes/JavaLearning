@@ -1,4 +1,0 @@
-INDEX VERSION 1.131+C:\Users\leona\OneDrive\Documentos\estudos em java\Alura\Design Pattern\.metadata\.plugins\org.eclipse.jdt.core
-1865797976.index
-204434604.index
-2990530667.index
