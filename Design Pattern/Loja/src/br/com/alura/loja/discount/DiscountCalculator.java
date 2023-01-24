@@ -2,7 +2,7 @@ package br.com.alura.loja.discount;
 
 import java.math.BigDecimal;
 
-import br.com.alura.loja.budjet.Budget;
+import br.com.alura.loja.budget.Budget;
 
 public class DiscountCalculator {
 	//chain of responsability

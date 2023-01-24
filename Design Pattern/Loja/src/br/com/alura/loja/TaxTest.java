@@ -2,7 +2,7 @@ package br.com.alura.loja;
 
 import java.math.BigDecimal;
 
-import br.com.alura.loja.budjet.Budget;
+import br.com.alura.loja.budget.Budget;
 import br.com.alura.loja.taxes.ICMS;
 import br.com.alura.loja.taxes.ISS;
 import br.com.alura.loja.taxes.TaxationCalculation;
