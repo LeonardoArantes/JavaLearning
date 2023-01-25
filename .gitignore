@@ -1,7 +1,7 @@
 JavaLearning
-Design*Pattern\.metadata
-Design*Pattern\Loja\.settings
-Design*Pattern\Loja\bin
+Design*Pattern/.metadata
+Design*Pattern/Loja\.settings
+Design*Pattern/Loja\bin
 *.class
 echo "/Design*Pattern/.metadata" >> .gitignore
 echo "*.class" >> .gitignore
