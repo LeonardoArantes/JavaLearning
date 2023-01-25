@@ -1,5 +1,0 @@
-Design*Pattern/.metadata
-*.class
-/.gitignore
-echo "/Design*Pattern/.metadata" >> .gitignore
-echo "*.class" >> .gitignore
