@@ -5,7 +5,7 @@ import java.math.BigDecimal;
 import br.com.alura.loja.budget.Budget;
 import br.com.alura.loja.discount.DiscountCalculator;
 
-public class DiscountTest {
+public class TestDiscount {
 	public static void main(String[] args) {
 		Budget budget = new Budget(new BigDecimal("200"), 6);
 		Budget budget1 = new Budget(new BigDecimal("200"), 3);

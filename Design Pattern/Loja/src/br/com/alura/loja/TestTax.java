@@ -7,7 +7,7 @@ import br.com.alura.loja.taxes.ICMS;
 import br.com.alura.loja.taxes.ISS;
 import br.com.alura.loja.taxes.TaxationCalculation;
 
-public class TaxTest {
+public class TestTax {
 	//Strategy
 	public static void main(String[] args) {
 		Budget budget = new Budget(new BigDecimal("100"), 1);
