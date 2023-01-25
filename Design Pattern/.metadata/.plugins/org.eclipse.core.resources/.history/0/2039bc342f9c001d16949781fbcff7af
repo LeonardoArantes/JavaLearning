@@ -1,0 +1,20 @@
+package br.com.alura.loja.budjet.status;
+
+import java.math.BigDecimal;
+
+import br.com.alura.loja.budjet.Budget;
+
+public class UnderAnalyse {
+	
+	private BigDecimal calculateAdditionalDiscount(Budget budget){		
+		return budget.getValue().multiply(new BigDecimal("0.05"));
+	}
+	
+	public void approved(Budget budget) {
+		budget.setStatus(new Approved);
+	}
+	
+	public void disapproved(Budget budget) {
+		budget.setStatus(new disapproved);
+	}
+}
