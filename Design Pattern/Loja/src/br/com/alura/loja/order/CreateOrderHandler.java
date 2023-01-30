@@ -1,18 +1,26 @@
 package br.com.alura.loja.order;
 
 import java.time.LocalDateTime;
+import java.util.List;
 
 import br.com.alura.loja.budget.Budget;
+import br.com.alura.loja.order.action.Actions;
 
-public class CreateOrderHandler {
+public class CreateOrderHandler{
 	
 	//constructor with injection
-	
-	public void execute(CreateOrder data) {
-		Budget budget = new Budget(data.getValueBuget(), data.getItemsQuantity());
-		Order order = new Order(data.getName(), LocalDateTime.now(), budget);
-		
-		System.out.println("save code on database");
+
+	private List<Actions> action;
+
+	//Listener or Observer
+	public CreateOrderHandler(List<Actions> actions) {
+		this.action = actions;
 	}
 
+	public void execute(CreateOrder data) {
+
+		Budget budget = new Budget(data.getValueBuget(), data.getItemsQuantity());
+		Order order = new Order(data.getName(), LocalDateTime.now(), budget);
+		action.forEach(a -> a.execute(order));
+	}
 }
